@@ -12,6 +12,26 @@ h1{
     line-height: 1.5;
 }
 
+h3{
+    font-family: "Montserrat";
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+p {
+    color: #716F81;
+}
+
+/* Feature icons */
+.icon {
+    padding-bottom: 7%;
+    color: #C9BBCF;
+}
+
+.icon:hover{
+    color: #716F81;
+}
+
 /* Title section (main info at the top) */
 .container-fluid{
     padding: 3% 15%;
@@ -69,4 +89,15 @@ h1{
 #lightDownloadButton{
     border-color: black;
     color: black;
+}
+
+/* Features description section */
+
+#features{
+    padding: 5% 15%;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
 }
