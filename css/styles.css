@@ -1,17 +1,72 @@
 body{
     font-family: "Ubuntu", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
 }
 
 h1{
-    font-family: "Montserrat-Black", sans-serif;
-    font-size: 3rem;
-    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
     font-style: italic;
     line-height: 1.5;
 }
 
+/* Title section (main info at the top) */
+.container-fluid{
+    padding: 3% 15%;
+}
+
 #title{
-    background-color: #EBE3D5;
+    background-color: #716F81;
+    color: azure;
+}
+
+/* Title image (online shop page) */
+.onlineShop{
+    display: block;
+    width: 50%;
+    margin: 5% 30% 5% 1%;
+    padding: 0%;
+    border: 5px solid black;
+    border-radius: 3%;
+    transform: rotate(25deg);
+}
+
+/* Navigation bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: azure;
+}
+
+/* Download buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.fa-brands{
+    padding: 10px;
+}
+
+#lightDownloadButton{
+    border-color: black;
+    color: black;
 }
