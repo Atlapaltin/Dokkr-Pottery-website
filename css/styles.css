@@ -150,3 +150,19 @@ p {
 
 /*Pricing section - Cards*/
 
+#pricing{
+    padding: 70px 100px;
+    text-align: center;
+}
+
+.pricingCard{
+    padding: 3% 2%;
+}
+
+/*Call to action*/
+
+#cta {padding: 10px 100px;}
+
+/*Footer*/
+
+#footer {padding: 10px 100px;}
