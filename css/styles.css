@@ -1,40 +1,26 @@
 body{
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 500;
-    font-style: normal;
+    font-family: "Montserrat";
+    text-align: center;
 }
 
-h1{
-    font-family: "Montserrat", sans-serif;
+/*Headings*/
+
+h1, h2, h3, h4, h5 {
+    font-family: "Montserrat";
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.buyPottery{
     font-size: 3.5rem;
-    font-weight: bold;
     font-style: italic;
-    line-height: 1.5;
 }
 
-h2{
-    font-family: "Montserrat";
-    font-size: 3rem;
-    font-weight: bold;
-    line-height: 1.5;
-}
-
-h3{
-    font-family: "Montserrat";
-    font-size: 1.8rem;
-    font-weight: bold;
-}
-
-h5{
-    font-family: "Montserrat";
-    font-size: 1.8rem;
-    font-weight: bold;
-}
+/*Paragraphs*/
 
 p {
     color: #716F81;
 }
-
 
 /* Feature icons */
 .icon {
@@ -54,6 +40,7 @@ p {
 #title{
     background-color: #716F81;
     color: azure;
+    text-align: left;
 }
 
 /* Title image (online shop page) */
@@ -94,6 +81,9 @@ p {
 
 .download-button {
     margin: 5% 3% 5% 0;
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    font-weight: bolder;
 }
 
 .fa-brands{
@@ -113,16 +103,17 @@ p {
     position: relative;
 }
 
+.featureHeading{
+    font-size: 1.8rem;
+}
+
 .feature-box{
-    text-align: center;
     padding: 5%;
 }
 
 /*Testimonial section*/
 
 #testimonials{
-    
-    text-align: center;
     background-color: #716F81;
     color: azure;
 }
@@ -131,17 +122,24 @@ p {
     padding: 7% 15%;
 }
 
+.testimonialItemHeading{
+    font-size: 2.5rem;
+}
+
 .testimonialImage{
     width: 20%;
     border-radius: 100%;
     margin: 20px;
 }
 
-/*Social Media*/
+.customerName {
+    font-size: 1.5rem;
+}
+
+/*Social Media Section*/
 
 #socialMedia{
     background-color: #716F81;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -151,11 +149,14 @@ p {
     margin: 20px 20px 50px;
 }
 
-/*Pricing section - Cards*/
+/*Pricing section*/
 
 #pricing{
-    padding: 70px 100px;
-    text-align: center;
+    padding: 7% 10%;
+}
+
+.pricingSectionHeading{
+    font-size: 3rem;
 }
 
 .pricingCard{
@@ -168,7 +169,6 @@ p {
     padding: 3% 20%;
     background-color: #716F81;
     color: azure;
-    text-align: center;
 }
 
 .ctaHeading{
@@ -185,7 +185,6 @@ p {
 #footer {
     padding: 1% 5%;
     background-color: #716F81;
-    text-align: center;
 }
 
 .copyright{color: azure;}
@@ -193,6 +192,8 @@ p {
 .socialIcon {
     padding: 3% 1%;
 }
+
+/*Media queries*/
 
 @media (max-width: 996px) {
     #title{
