@@ -164,11 +164,35 @@ p {
 
 /*Call to action*/
 
-#cta {padding: 10px 100px;}
+#cta {
+    padding: 3% 20%;
+    background-color: #716F81;
+    color: azure;
+    text-align: center;
+}
+
+.ctaHeading{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.5
+    
+}
 
 /*Footer*/
 
-#footer {padding: 10px 100px;}
+#footer {
+    padding: 1% 5%;
+    background-color: #716F81;
+    text-align: center;
+}
+
+.copyright{color: azure;}
+
+.socialIcon {
+    padding: 3% 1%;
+}
 
 @media (max-width: 996px) {
     #title{
