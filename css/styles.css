@@ -22,6 +22,17 @@ p {
     color: #716F81;
 }
 
+/*Sections*/
+
+.graySection, .caveColor {
+    background-color: #716F81;
+    color: azure;
+}
+
+.whiteSection{
+    background-color: azure;
+}
+
 /* Feature icons */
 .icon {
     padding-bottom: 7%;
@@ -38,8 +49,6 @@ p {
 }
 
 #title{
-    background-color: #716F81;
-    color: azure;
     text-align: left;
 }
 
@@ -99,7 +108,6 @@ p {
 
 #features{
     padding: 5% 15%;
-    background-color: azure;
     position: relative;
 }
 
@@ -112,11 +120,6 @@ p {
 }
 
 /*Testimonial section*/
-
-#testimonials{
-    background-color: #716F81;
-    color: azure;
-}
 
 .carousel-item{
     padding: 7% 15%;
@@ -139,7 +142,6 @@ p {
 /*Social Media Section*/
 
 #socialMedia{
-    background-color: #716F81;
     padding-bottom: 3%;
 }
 
@@ -163,12 +165,14 @@ p {
     padding: 3% 2%;
 }
 
+.caveCard {
+    background-color: #716F81;
+}
+
 /*Call to action*/
 
 #cta {
     padding: 3% 20%;
-    background-color: #716F81;
-    color: azure;
 }
 
 .ctaHeading{
@@ -184,7 +188,6 @@ p {
 
 #footer {
     padding: 1% 5%;
-    background-color: #716F81;
 }
 
 .copyright{color: azure;}
